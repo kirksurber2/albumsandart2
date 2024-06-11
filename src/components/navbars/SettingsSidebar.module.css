@@ -1,0 +1,67 @@
+.settingsSidebarContainer {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, .17);
+    transition: 1.5s;
+}
+.sidebarContainer a {
+    position: relative;
+    margin: 10px;
+    color: #3c3c3c;
+    width: 50px;
+    transition: .5s;
+}
+.sidebarContainer a:hover {
+    scale: 1.25;
+    color: darkorchid;
+}
+
+.menuItems {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+.menuItems a {
+    margin-left: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.logoImage {
+    scale: .75;
+}
+.logoutSettings {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.icon {
+    transform: translate(-50%, 25%);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.active a{
+    font-weight: 700;
+    color: blue
+}
+.openButton {
+    position: absolute;
+    left: 80%;
+    top: 30%;
+    transform: translate(0 -50%);
+    transition: .75s;
+    z-index: 5;
+    cursor: pointer;
+}
+.openButton:hover {
+    color: blue
+}

@@ -1,0 +1,53 @@
+
+.materialSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    max-width: 250px;
+}
+.materialType {
+    display: flex;
+    color: #967f71;
+    margin: 10px;  
+}
+.materialType h6{
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.materialType h6:hover{
+    font-size: larger;
+}
+.materialType h6:active {
+    color: blue
+}
+
+.materialSelection {
+    border: 0px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.materialSection img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+.materialSection img:hover {
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, #967f71, #d4b5a1, #967f71) border-box;
+    border: 4px solid transparent;
+    color: #3c3c3c;
+}
+.materialSelection img:active {
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, #967f71, #d4b5a1, #967f71) border-box;
+    border: 4px solid transparent;
+    color: #3c3c3c;
+}

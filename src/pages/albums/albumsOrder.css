@@ -1,0 +1,34 @@
+
+.albumSelection {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 15px;
+    width: 100%;
+    height: 99vh;
+}
+
+.albumType {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .015);
+    border-radius: 15px;
+    width: 22%;
+    min-width: 250px;
+    height: 500px;
+    transition: .5s;
+}
+.title {
+    background-color: rgba(255,255,255, .55);
+    width: 50%;
+    margin: 0px auto;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.albumType:hover{
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, darkblue, darkorchid) border-box;
+    
+    border: 4px solid transparent;
+    cursor: pointer;
+}

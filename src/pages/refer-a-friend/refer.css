@@ -1,0 +1,49 @@
+/* $dpurp: #3a0ca3;
+$lpurp: #7209B7;
+$lblue: #4361ee;
+$dblue: #111A6f; */
+
+.main{
+    margin-top: -90px;
+}
+
+.main h1{
+    font-size: 34px;
+    text-wrap: wrap;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: linear-gradient(to right, #111a6f, #7209b7 51%, #111a6f 100%);   
+    background-size: 200%;
+    transition: .5s;
+    color: white;
+    margin: 10px auto;
+}
+.steps h2{
+    margin: 5px;
+}
+.steps p {
+    margin: 5px;
+}
+
+.box {
+    width: 80%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px auto;
+}
+input {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+button {
+    margin: 10px auto;
+}
+

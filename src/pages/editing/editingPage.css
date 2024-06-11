@@ -1,0 +1,98 @@
+
+.editPackages h2 {
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+}
+.editPackages {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.editPackage {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .17);
+    width: 22%;
+    min-width: 250px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, .17) 0px 7px 7px 7px;
+    transition: .5s;
+    margin: 10px auto;
+    align-items: center;
+    
+}
+
+.editPackage:hover {
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, #967f71, #d4b5a1, #967f71) border-box;
+    border: 4px solid transparent;
+    color: #3c3c3c;
+  }
+.feature {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.featureIcon {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    transform: translate(-50%, 25%);
+}
+.feature p{
+    margin-bottom: 5px;
+}
+.selectArea {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+   
+}
+.selectArea button {
+    border-radius: 25px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 15px 25px;
+    align-items: center;
+    box-shadow: rgba(70, 70, 70, .12) 2px 5px 10px, inset
+                 rgba(255, 255, 255, .2) -7px -5px 7px;
+    border: 1px solid rgba(0, 0, 0, .075);
+    background-image: linear-gradient(to right, #967f71 0%, #d4b5a1 51%, #967f71 100%);   
+    background-size: 200%;
+    transition: .5s;
+    width: 250px;
+    line-height: 1.25;
+    color: white;
+  }
+  .selectArea label {
+    margin: 10px auto;
+  }
+  button:hover {
+    background-position: right center;
+  }
+  .customQuote {
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 150px;
+  }
+  .customQuote button {
+    margin: 10px auto;
+    border: 1px solid rgba(0, 0, 0, .17);
+    border-radius: 15px;
+  }
+  #luxSignature {
+    background-image: url('../../assets//images/Estates.jpg');
+    object-fit: scale-down;
+    height: 50%;
+  }
+@media screen and(max-width: 1000px) {
+    .editingPackages {
+        flex-direction: column;
+    }
+}

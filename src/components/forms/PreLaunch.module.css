@@ -1,0 +1,24 @@
+
+
+form {
+    width: 15%;
+    box-shadow: rgba(0, 0, 0, .2) 0px -1px 7px 1px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+form input {
+    font-size: 1.25em;
+    padding: .5em;
+    border-radius: 5px;
+    margin: .75em;
+}
+
+button {
+    margin-bottom: .5em;
+
+}
+
+

@@ -1,0 +1,27 @@
+
+
+.napeForm {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    width: 40%;
+    height: 20em;
+    z-index: 10;
+    margin-top: 400px;
+}
+
+input {
+    width: 60%;
+    height: 2.5em;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+form button {
+    position: absolute;
+    height: 3rem;
+    width: 10rem;
+    top: 75%;
+    left: 2%;
+    margin: 1rem;
+ }

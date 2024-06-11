@@ -1,0 +1,19 @@
+
+.itemImage {
+    width: 75%;
+}
+.itemDescription {
+    width: 25%;
+    
+    
+}
+.itemDescription h1, p{
+    text-align: left;
+    margin-left: 10px;
+}
+.itemDescription p {
+    margin-bottom: 0px;
+}
+.aboveFold {
+    display: flex;
+}

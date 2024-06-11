@@ -1,0 +1,10 @@
+
+
+select {
+    padding: 10px;
+}
+
+.optionList {
+    border: 1px solid, rgba(0, 0, 0, .17);
+    border-radius: 15px;
+}
